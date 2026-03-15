@@ -1,0 +1,19 @@
+
+
+        html { 
+            scroll-behavior: smooth; 
+        }
+
+        body { 
+            font-family: 'Inter', sans-serif; 
+        }
+
+        .esconder-barra-de-rolagem::-webkit-scrollbar { 
+            display: none; 
+        }
+        
+        .esconder-barra-de-rolagem { 
+            -ms-overflow-style: none; 
+            scrollbar-width: none; 
+        }
+ 
